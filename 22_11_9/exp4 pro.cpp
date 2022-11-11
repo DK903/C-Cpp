@@ -7,7 +7,7 @@ int main(){
 	for(i=101;i<=200;i+=2)
 	{
 		int j = 0;
-		for(j=2;j<sqrt(i);j++)
+		for(j=2;j<=sqrt(i);j++)// i = a*b  a 和 b 中至少有一个数字<= 开平方i 
 		{
 			if(i%j == 0)
 			{
