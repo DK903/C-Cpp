@@ -7,9 +7,9 @@ int binary_search(int arr[],int k,int sz){
 	//数组传参 不能这样求数组大小 
 	int l = 0;
 	int r = sz-1;
-	while(l<=r)
+	while(l<=r)//2.必须是  <= 
 	{	
-		int m = (l+r)/2;
+		int m = (l+r)/2;//1.必须放在循环内 
 		if(arr[m] < k){
 			l = m+1;
 		}
