@@ -1,3 +1,3 @@
-# C-Cpp
+# C and Cpp
 studying
 just noob
